@@ -6,7 +6,7 @@ var form, player, playerCount;
 var allPlayers;
 var jets = [];
 var rotateSpeed;
-var edges
+//var edges
 
 
 //BP
@@ -21,7 +21,7 @@ function preload() {
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   database = firebase.database();
-  edges = createEdgeSprite()
+  //edges = createEdgeSprite()
   angleMode(DEGREES)
   game = new Game();
   game.getState();
