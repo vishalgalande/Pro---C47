@@ -90,7 +90,7 @@ class Game {
     
     //player.playerRotation()
     this.handlePlayerControls()
-    player.constrainToMap()
+    //player.constrainToMap()
   }
 
   handleResetButton() {
