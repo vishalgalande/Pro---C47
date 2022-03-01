@@ -39,8 +39,8 @@ function draw() {
   if (gameState === 1) {
     game.play();
   }
-  jet1.bounceOff(edges);
-  jet2.bounceOff(edges);
+  //jet1.bounceOff(edges);
+  //jet2.bounceOff(edges);
   
 
 }
